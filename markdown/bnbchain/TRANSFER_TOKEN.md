@@ -5,7 +5,7 @@ Transferring some token is one of the major feature of Web 3. In this challenge,
 # 🏋️ Challenge
 
 {% hint style="tip" %}
-**Imagine this scenario:** You know you have a big balance and you want to eat some pizza. Then, you need to transfer **0.1** BNB to buy one! In `components/protocols/bnbchain/challenges/transfer.ts`, implement the `transfer` function.
+**Imagine this scenario:** You know you have a big balance and you want to eat some pizza. Then, you need to transfer **0.01** BNB to buy one! In `components/protocols/bnbchain/challenges/transfer.ts`, implement the `transfer` function.
 {% endhint %}
 
 **Take a few minutes to figure this out.**

@@ -1,6 +1,6 @@
 Solidity is a high level language. It is partly designed after ECMAScript and therefore it is said to be **similar to JavaScript**. The similarity ends there because it gets compiled (not interpreted) and usually deployed on blockchains that understand the Ethereum Virtual Machine (EVM), like BNB Smart Chain ! When a smart contract is deployed, it becomes immutable. This has both benefits and drawbacks, which we will discuss below.
 
-We can use [HardHat](https://hardhat.org) or [Truffle](https://trufflesuite.com) to ease development and deployment of our Solidity code. There are several existing guides for other EVM compatible networks available on Figment Learn (check out the tutorials for [Celo and Truffle](https://learn.figment.io/tutorials/deploying-smart-contracts-on-celo-with-truffle), or [Celo and HardHat](https://learn.figment.io/tutorials/celo-hardhat-deploy-and-nft-app) for example). We will focus on using Truffle in this tutorial.
+We can use [HardHat](https://hardhat.org) or [Truffle](https://trufflesuite.com) to ease development and deployment of our Solidity code. There are several existing guides for other EVM compatible networks available on Figment Learn (check out BNB Chain Starter Box for quick development on the BNB Smart Chain network). We will focus on using Truffle in this tutorial.
 
 # Pre-requisite
 
@@ -203,7 +203,7 @@ airport battle cargo daughter educate focus green honey immune jelly kick langua
 
 ---
 
-Compiling Solidity with Truffle is a straightforward process, just make sure that your preferred configuration is set in `truffle-config.js` \(paths, compilers, networks, etc.\) and then run the command:
+Compiling Solidity with Truffle is a straightforward process, just make sure that your preferred configuration is set in `truffle-config.js` \(paths, compilers, networks, etc.\) and then run the following command:
 
 ```text
 truffle compile
