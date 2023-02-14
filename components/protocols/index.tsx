@@ -10,3 +10,4 @@ export {default as Tezos} from 'components/protocols/tezos';
 export {default as TheGraph} from 'components/protocols/the_graph';
 export {default as Solana} from 'components/protocols/solana';
 export {default as TheGraphNear} from 'components/protocols/the_graph_near';
+export {default as BNBChain} from 'components/protocols/bnbchain';

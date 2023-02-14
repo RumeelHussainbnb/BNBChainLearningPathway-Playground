@@ -4,6 +4,7 @@ import {BlockWithTransactions} from '@ethersproject/abstract-provider';
 export enum CHAINS {
   ARWEAVE = 'arweave',
   AVALANCHE = 'avalanche',
+  BNBCHAIN = 'bnbchain',
   CELO = 'celo',
   CERAMIC = 'ceramic',
   NEAR = 'near',
@@ -21,6 +22,7 @@ export enum CHAINS {
 export type PROTOCOLS =
   | ARWEAVE_PROTOCOLS
   | AVALANCHE_PROTOCOLS
+  | BNBCHAIN_PROTOCOLS
   | CELO_PROTOCOLS
   | CERAMIC_PROTOCOLS
   | NEAR_PROTOCOLS
@@ -44,6 +46,11 @@ export enum THE_GRAPH_PROTOCOLS {
 
 export enum AVALANCHE_PROTOCOLS {
   RPC = 'RPC',
+}
+
+export enum BNBCHAIN_PROTOCOLS {
+  RPC = 'RPC',
+  JSON_RPC = 'JSON_RPC',
 }
 
 export enum CELO_PROTOCOLS {
@@ -126,6 +133,11 @@ export enum POLYGON_NETWORKS {
   TESTNET = 'Mumbai',
 }
 
+export enum BNBCHAIN_NETWORKS {
+  TESTNET = 'BSC-Testnet',
+  MAINNET = 'BSC-Mainnet',
+}
+
 export enum PYTH_NETWORKS {
   MAINNET = 'mainnet-beta',
   TESTNET = 'testnet',
@@ -166,6 +178,7 @@ export enum ARWEAVE_NETWORKS {
 export type NETWORKS =
   | ARWEAVE_NETWORKS
   | AVALANCHE_NETWORKS
+  | BNBCHAIN_NETWORKS
   | CELO_NETWORKS
   | TEZOS_NETWORKS
   | THE_GRAPH_NETWORKS

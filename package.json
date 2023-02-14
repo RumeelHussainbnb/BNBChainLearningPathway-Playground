@@ -14,6 +14,7 @@
     "near:test": "cd contracts/near && cargo test -- --nocapture && cd -",
     "near:test:verbose": "yarn near:build:contract:debug && cd contracts/near && cargo test -v -- --nocapture && cd -",
     "truffle-polygon": "yarn global add truffle && cd ./contracts/polygon/SimpleStorage && yarn && truffle obtain --solc 0.8.0",
+    "truffle-bsc": "yarn global add truffle && cd ./contracts/bsc/HelloWorld && yarn && truffle obtain --solc 0.8.0",
     "prepare": "husky install",
     "test": "[ -f dist/solana/program/helloworld-keypair.json ] && jest || echo 'Run: yarn solana:build:program'"
   },

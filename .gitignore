@@ -49,6 +49,10 @@ md
 /contracts/polygon/SimpleStorage/.secret
 /contracts/polygon/SimpleStorage/build
 /contracts/polygon/SimpleStorage/package-lock.json
+/contracts/bnbchain/HelloWorld/node_modules
+/contracts/bnbchain/HelloWorld/.secret
+/contracts/bnbchain/HelloWorld/build
+/contracts/bnbchain/HelloWorld/package-lock.json
 /contracts/secret/mysimplecounter
 
 # credentials

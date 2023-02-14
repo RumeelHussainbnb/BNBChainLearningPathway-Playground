@@ -58,6 +58,7 @@ const Home = () => {
         <Row>
           <Col span={24}>
             <ChainRow title={'Chains'}>
+              <Protocol chain={CHAINS.BNBCHAIN} />
               <Protocol chain={CHAINS.SOLANA} />
               <Protocol chain={CHAINS.AVALANCHE} />
               <Protocol chain={CHAINS.POLYGON} />

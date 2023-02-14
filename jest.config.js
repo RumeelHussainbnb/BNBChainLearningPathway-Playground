@@ -17,6 +17,7 @@ module.exports = {
   modulePaths: ['node_modules', '<rootDir>'],
   moduleNameMapper: {
     '^@figment-avalanche/(.*)$': 'components/protocols/avalanche/$1',
+    '^@figment-bnbchain/(.*)$': 'components/protocols/bnbchain/$1',
     '^@figment-celo/(.*)$': 'components/protocols/celo/$1',
     '^@figment-ceramic/(.*)$': 'components/protocols/ceramic/$1',
     '^@figment-near/(.*)$': 'components/protocols/near/$1',
