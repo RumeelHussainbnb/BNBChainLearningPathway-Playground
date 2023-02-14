@@ -51,7 +51,7 @@ const getValue = async (contractAddress: string) => {
       HelloWorldJson.abi,
       signer,
     );
-    const value = await contract.get();
+    const value = await contract.getGreeting();
     return {value};
   } catch (error) {
     return {

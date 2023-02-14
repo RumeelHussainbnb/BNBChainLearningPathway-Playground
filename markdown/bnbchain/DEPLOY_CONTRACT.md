@@ -201,6 +201,8 @@ If using a secret recovery phrase (mnemonic) in `contracts/bnbchain/HelloWorld/.
 airport battle cargo daughter educate focus green honey immune jelly kick language
 ```
 
+For this learnign pathway, we have included as sample `.secret.example` file for reference. Rename this file to `.secret`and paste your Metamask account's secret recovery phrase into this file.
+
 ---
 
 Compiling Solidity with Truffle is a straightforward process, just make sure that your preferred configuration is set in `truffle-config.js` \(paths, compilers, networks, etc.\) and then run the following command:

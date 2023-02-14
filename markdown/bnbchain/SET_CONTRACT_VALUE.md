@@ -54,7 +54,9 @@ const setValue = async (contractAddress: string, value: number) => {
       HelloWorldJson.abi,
       signer,
     );
-    const transactionResult = await contract.set(value, {gasLimit: 500000});
+    const transactionResult = await contract.setGreeting(value, {
+      gasLimit: 500000,
+    });
     const receipt = await transactionResult.wait();
     return {hash: receipt.transactionHash};
   } catch (error) {
@@ -78,7 +80,7 @@ const setValue = async (contractAddress: string, value: number) => {
 
 # ✅ Make sure it works
 
-Once the code in `components/protocols/polygon/challenges/setter.ts` is complete, you can enter a value into the textinput then click on **Set Value** to send the transaction and change the data stored in the smart contract.
+Once the code in `components/protocols/bnbchain/challenges/setter.ts` is complete, you can enter a value into the textinput then click on **Set Value** to send the transaction and change the data stored in the smart contract.
 
 ---
 

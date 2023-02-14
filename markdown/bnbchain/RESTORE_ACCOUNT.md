@@ -5,7 +5,7 @@ At the beginning of this journey into Polygon, we generated a mnemonic. Now we'r
 # 🏋️ Challenge
 
 {% hint style="tip" %}
-In the file `components/protocols/polygon/challenges/restore.ts`, implement the `restore` function. Using `ethers`, look for `Wallet`, then when the wallet has been regenerated try to deduce which property we're going to call in order to display the address, finally verify that the generated address matches the existing one.  
+In the file `components/protocols/bnbchain/challenges/restore.ts`, implement the `restore` function. Using `ethers`, look for `Wallet`, then when the wallet has been regenerated try to deduce which property we're going to call in order to display the address, finally verify that the generated address matches the existing one.  
 {% endhint %}
 
 **Take a few minutes to figure this out.**
@@ -70,7 +70,7 @@ const restore = (mnemonic: string, address?: string) => {
 
 # ✅ Make sure it works
 
-When you have completed the code in `components/protocols/polygon/challenges/restore.ts`: Copy & paste your **mnemonic** then click on **Restore Account**.
+When you have completed the code in `components/protocols/bnbchain/challenges/restore.ts`: Copy & paste your **mnemonic** then click on **Restore Account**.
 
 ---
 
