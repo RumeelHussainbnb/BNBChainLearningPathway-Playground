@@ -6,7 +6,6 @@ Here's a quick recap of what we covered:
 - 🏦 Funding a BNB Chain testnet account with the faucet
 - 💸 Transferring tokens between accounts
 - ⛓ Deploying and interacting with a Solidity smart contract
-- 🌱 Restoring access to an account with a Secret Recovery Phrase (mnemonic)
 
 # 🧐 Keep learning with these resources:
 
