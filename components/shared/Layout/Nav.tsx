@@ -7,7 +7,6 @@ import {ChevronRight} from 'react-feather';
 
 import {colors, getChainColors} from 'utils/colors';
 import logoSVG from 'public/figment-learn-compact.svg';
-import discordSVG from 'public/discord.svg';
 import {HEADER_HEIGHT} from 'lib/constants';
 import {getChainLabel, getChainId} from 'utils/context';
 import {useGlobalState} from 'context';
@@ -32,19 +31,6 @@ const Nav = () => {
           {chainLabel}
         </ChainTitle>
       </Row>
-
-      <a
-        href="https://discord.com/invite/fszyM7K"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Discord>
-          <Row align="middle">
-            <div>Need help? Find us on</div>
-            <Image src={discordSVG} alt="Discord" height={22} width={100} />
-          </Row>
-        </Discord>
-      </a>
     </StyledNav>
   );
 };
@@ -76,15 +62,6 @@ const ChainTitle = styled(Space)<{secondary_color: string}>`
       opacity: 1;
     }
   }
-`;
-
-const Discord = styled.div`
-  font-weight: 600;
-  padding: 8px 15px;
-  border-radius: 3px;
-  background: ${colors.figmentYellow};
-  color: black !important;
-  box-shadow: #9b9b9b 0px 0px 5px 1px;
 `;
 
 export default Nav;

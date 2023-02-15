@@ -43,7 +43,7 @@ If you're using a private infractructure provider, you may require an API key to
 
 ## 💬 Connect with us on Discord
 
-If you experience any difficulty in using the Pathway or want to talk about Web 3, please join our Developer community on Discord - <https://figment.io/devchat>
+If you experience any difficulty in using the Pathway or want to talk about Web 3, please join our Developer community on Discord - <**https://discord.gg/bnbchain**>
 
 ## 👣 Next Steps
 
