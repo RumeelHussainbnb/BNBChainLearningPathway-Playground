@@ -46,7 +46,7 @@ const Transfer = () => {
           loading={fetching}
           size="large"
         >
-          Transfer 0.1 BNB
+          Transfer 0.01 BNB
         </Button>
         {hash ? (
           <>

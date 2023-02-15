@@ -43,7 +43,10 @@ const Setter = () => {
     <Col>
       <Space direction="vertical" size="large">
         <Space direction="horizontal">
-          <Input value={inputGreet} onChange={setInputGreet} />
+          <Input
+            placeholder="Enter a Name to Greet"
+            onChange={(e) => setInputGreet(e.target.value)}
+          />
           <Button
             type="primary"
             icon={<PoweroffOutlined />}

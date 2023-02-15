@@ -214,7 +214,7 @@ truffle compile
 Deploying Migrations with Truffle is quite similar to deploying, but provides more flexibility for custom workflows. A full explanation of migrations is beyond the scope of this tutorial, but please do read the Truffle [documentation](https://www.trufflesuite.com/docs/truffle/getting-started/running-migrations) on the subject. To deploy the HelloWorld contract to BNB Smart Chain, run this command :
 
 ```text
-truffle migrate --network bsc
+truffle migrate --network bsc --reset
 ```
 
 The flag `--network bsc` lets Truffle know which network we want to deploy our migrations to. The configuration for each network is set inside of `truffle-config.js`.
@@ -239,4 +239,4 @@ Once the contract is compiled and deployed, paste the contract address into the 
 
 # 🏁 Conclusion
 
-Truffle is only one of several different ways to deploy smart contracts on BNB Smart Chain. It is also possible to use the Ethereum [Remix IDE](https://remix.ethereum.org), or another smart contract development tool called [HardHat](https://hardhat.org). Now that we have a deployed and functioning smart contract on BNB Smart Chain, let's interact with it!
+Truffle is only one of several different ways to deploy smart contracts on BNB Smart Chain. It is also rssible to use the Ethereum [Remix IDE](https://remix.ethereum.org), or another smart contract development tool called [HardHat](https://hardhat.org). Now that we have a deployed and functioning smart contract on BNB Smart Chain, let's interact with it!
