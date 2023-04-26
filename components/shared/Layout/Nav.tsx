@@ -7,7 +7,6 @@ import {ChevronRight} from 'react-feather';
 
 import {colors, getChainColors} from 'utils/colors';
 import logoSVG from 'public/figment-learn-compact.svg';
-import discordSVG from 'public/discord.svg';
 import {HEADER_HEIGHT} from 'lib/constants';
 import {getChainLabel, getChainId} from 'utils/context';
 import {useGlobalState} from 'context';
@@ -25,26 +24,14 @@ const Nav = () => {
       justify="space-between"
     >
       <Row align="middle">
-        <Image src={logoSVG} alt="Figment Learn" height={47} width={100} />
+        {/*<Image src={logoSVG} alt="BNB Chain Learn" height={47} width={100} />*/}
         <ChainTitle direction="horizontal" secondary_color={secondaryColor}>
-          <Link href="/">Pathways</Link>
+          {/*<Link href="/">Pathways</Link>
           <ChevronRight style={{marginTop: '14px'}} />
-          {chainLabel}
+          {chainLabel}*/}
+          <Link href="/">BNB Chain Learning Pathway</Link>
         </ChainTitle>
       </Row>
-
-      <a
-        href="https://discord.com/invite/fszyM7K"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Discord>
-          <Row align="middle">
-            <div>Need help? Find us on</div>
-            <Image src={discordSVG} alt="Discord" height={22} width={100} />
-          </Row>
-        </Discord>
-      </a>
     </StyledNav>
   );
 };
@@ -68,23 +55,10 @@ const ChainTitle = styled(Space)<{secondary_color: string}>`
   margin-left: 24px;
 
   a {
-    color: ${({secondary_color}) => secondary_color};
-    opacity: 0.6;
-
-    &:hover {
-      text-decoration: underline;
-      opacity: 1;
-    }
+    color: black;
+    opacity: 1;
+    text-decoration: none;
   }
-`;
-
-const Discord = styled.div`
-  font-weight: 600;
-  padding: 8px 15px;
-  border-radius: 3px;
-  background: ${colors.figmentYellow};
-  color: black !important;
-  box-shadow: #9b9b9b 0px 0px 5px 1px;
 `;
 
 export default Nav;

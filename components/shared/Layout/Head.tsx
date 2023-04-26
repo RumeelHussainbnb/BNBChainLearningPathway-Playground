@@ -8,11 +8,8 @@ export default function HeadLayout() {
   const label = getChainLabel(state);
   return (
     <Head>
-      <title>{`Figment Learn - ${label} Pathway`}</title>
-      <meta
-        name="description"
-        content="Figment Learn's Web 3 education courses"
-      />
+      <title>{`BNB Chain Learning Pathway`}</title>
+      <meta name="description" content="BNB Chain Web3 Education Courses" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
   );

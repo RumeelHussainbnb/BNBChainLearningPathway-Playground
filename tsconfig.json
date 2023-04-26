@@ -17,6 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "@figment-avalanche/*": ["components/protocols/avalanche/*"],
+      "@figment-bnbchain/*": ["components/protocols/bnbchain/*"],
       "@figment-celo/*": ["components/protocols/celo/*"],
       "@figment-ceramic/*": ["components/protocols/ceramic/*"],
       "@figment-near/*": ["components/protocols/near/*"],

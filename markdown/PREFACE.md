@@ -1,6 +1,6 @@
 ## 🧑‍🏫 Instructions on the left, 🤝 interaction on the right
 
-Each step in a Pathway covers a different aspect of using a particular blockchain or protocol. The format is easy to follow, with instructions on the left side and the right side for you to interact with your code. Remember that the left side can be scrolled down to show the rest of the content.
+Each step of this Pathway covers a different aspect of using the BNB Chain blockchain net. The format is easy to follow, with instructions on the left side and the right side for you to interact with your code. Remember that the left side can be scrolled down to show the rest of the content.
 
 ## 🏋️ Challenges & hints
 
@@ -8,7 +8,7 @@ After some explanation of each topic, there is a coding challenge for you to com
 
 ```js
 // path/to/the/file/to/edit.ts - this is only an example!
-const provider = undefined; // Create an Ethereum provider using ethers
+const provider = undefined; // Create a provider using ethers
 const selectedAddress = undefined; // then get the address
 const balanceToDisplay = undefined; // and format its balance
 ```
@@ -37,13 +37,13 @@ When you have completed the code, make sure it works by interacting with the UI 
 
 # 🧩 API keys
 
-**DataHub has discontinued Free accounts**. All Figment Learn pathways now make use of public RPC endpoints only. There is no need to supply an API key to access the public endpoints.
+BNB Chain Learn Web3 Playground make use of public RPC endpoints only. There is no need to supply an API key to access the public endpoints.
 
 If you're using a private infractructure provider, you may require an API key to access nodes via their endpoints. Remember to have your API key saved in `/learn-web3-dapp/.env.local`. You can then reference your API key in the pathway code via `process.env.<SOME_VARIABLE_NAME>`.
 
 ## 💬 Connect with us on Discord
 
-If you experience any difficulty in using the Pathway or want to talk about Web 3, please join our Developer community on Discord - <https://figment.io/devchat>
+If you experience any difficulty in using the Pathway or want to talk about Web 3, please join our Developer community on Discord - <**https://discord.gg/bnbchain**>
 
 ## 👣 Next Steps
 
