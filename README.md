@@ -1,6 +1,6 @@
-# 👋🏼 What is `learn-web3-dapp`?
+# 👋🏼 What is `BNB Chain Learning Pathway`?
 
-We made this decentralized application (dApp) to help developers learn about Web 3 protocols.
+We made this decentralized application (dApp) to help developers learn about development on Web3 using BNB Chain.
 
 It's a Next.js app that uses React, TypeScript and smart contract languages (mostly Solidity).
 
