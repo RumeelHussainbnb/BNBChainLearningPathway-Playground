@@ -12,6 +12,6 @@ Here's a quick recap of what we covered:
 - 🏗 [Deploying and debugging smart contracts](https://docs.bnbchain.org/docs/bsc-tutorials#smart-contracts)
 - 🧱 [Application development on BNB Smart Chain](https://docs.bnbchain.org/docs/dapp-dev/Hello-World)
 
-# 🗣 Give us your feedback
+# Claim your BNB Chain Learning Pathway NFT 
 
-Please take a couple of minutes to fill out this short **[feedback form](https://docs.google.com/forms/d/1SXg3xo0I1BRN2BAS-ffDbj1P6bfwo0x48trttmJ5xKs/)**.
+✅ You'll receive the BNB Chain Learning Pathway NFT after completing successfully completing all of the lessons and submitting it via the [submission link](https://s6qhfybgn4y.typeform.com/to/NM6iSxjq).

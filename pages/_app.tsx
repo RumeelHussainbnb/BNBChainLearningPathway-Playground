@@ -27,7 +27,7 @@ function MyApp({Component, pageProps}: AppProps) {
         </SimpleReactLightbox>
       </ThemeProvider>
       <NextNprogress
-        color={colors.figmentYellow}
+        color={colors.bnbYellow}
         startPosition={0.3}
         stopDelayMs={200}
         height={3}

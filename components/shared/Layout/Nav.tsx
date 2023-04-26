@@ -24,11 +24,12 @@ const Nav = () => {
       justify="space-between"
     >
       <Row align="middle">
-        <Image src={logoSVG} alt="Figment Learn" height={47} width={100} />
+        {/*<Image src={logoSVG} alt="BNB Chain Learn" height={47} width={100} />*/}
         <ChainTitle direction="horizontal" secondary_color={secondaryColor}>
-          <Link href="/">Pathways</Link>
+          {/*<Link href="/">Pathways</Link>
           <ChevronRight style={{marginTop: '14px'}} />
-          {chainLabel}
+          {chainLabel}*/}
+          <Link href="/">BNB Chain Learning Pathway</Link>
         </ChainTitle>
       </Row>
     </StyledNav>
@@ -54,13 +55,9 @@ const ChainTitle = styled(Space)<{secondary_color: string}>`
   margin-left: 24px;
 
   a {
-    color: ${({secondary_color}) => secondary_color};
-    opacity: 0.6;
-
-    &:hover {
-      text-decoration: underline;
-      opacity: 1;
-    }
+    color: black;
+    opacity: 1;
+    text-decoration: none;
   }
 `;
 

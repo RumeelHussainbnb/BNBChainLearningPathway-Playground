@@ -1,4 +1,4 @@
-import HelloWorldJson from 'contracts/bnbchain/HelloWorld/HelloWorld.json';
+import HelloWorldJson from 'contracts/bnbchain/HelloWorld/build/contracts/HelloWorld.json';
 import {ethers} from 'ethers';
 
 declare let window: {

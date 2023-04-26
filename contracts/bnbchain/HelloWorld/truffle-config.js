@@ -8,7 +8,7 @@ module.exports = {
   // for more details on how to specify configuration options!
   compilers: {
     solc: {
-      version: '0.8.0',
+      version: '^0.8.0',
       parser: 'solcjs', // Leverages solc-js purely for speedy parsing
       settings: {
         optimizer: {

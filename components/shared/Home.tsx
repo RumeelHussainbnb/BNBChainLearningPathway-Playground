@@ -17,56 +17,25 @@ const Home = () => {
     <Wrapper>
       <Container span={16} offset={4}>
         <Title>
-          Learn the Web 3 stack{' '}
+          BNB Chain Learning Pathway{' '}
           <Brand>
             by{' '}
-            <a
-              href="https://learn.figment.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Figment
+            <a href="https://bnbchain.org/" target="_blank" rel="noreferrer">
+              BNB Chain
             </a>
           </Brand>
         </Title>
-        <Row>
-          <Col span={6}>
-            <ChainRow title={'Data Indexing'}>
-              <Protocol chain={CHAINS.THE_GRAPH} />
-              <Protocol chain={CHAINS.THE_GRAPH_NEAR} />
-            </ChainRow>
-          </Col>
-
-          <Col span={6}>
-            <ChainRow title={'Oracles'}>
-              <Protocol chain={CHAINS.PYTH} />
-            </ChainRow>
-          </Col>
-
-          <Col span={6}>
-            <ChainRow title={'Identity'}>
-              <Protocol chain={CHAINS.CERAMIC} />
-            </ChainRow>
-          </Col>
-
+        {/*<Row>
           <Col span={6}>
             <ChainRow title={'Storage'}>
-              <Protocol chain={CHAINS.ARWEAVE} />
+              <Protocol chain={CHAINS.GREENFIELD} />
             </ChainRow>
           </Col>
-        </Row>
+          </Row>*/}
         <Row>
           <Col span={24}>
-            <ChainRow title={'Chains'}>
+            <ChainRow title={'Building a Web3 Application'}>
               <Protocol chain={CHAINS.BNBCHAIN} />
-              <Protocol chain={CHAINS.SOLANA} />
-              <Protocol chain={CHAINS.AVALANCHE} />
-              <Protocol chain={CHAINS.POLYGON} />
-              <Protocol chain={CHAINS.NEAR} />
-              <Protocol chain={CHAINS.POLKADOT} />
-              <Protocol chain={CHAINS.TEZOS} />
-              <Protocol chain={CHAINS.SECRET} />
-              <Protocol chain={CHAINS.CELO} />
             </ChainRow>
           </Col>
         </Row>
@@ -142,14 +111,15 @@ const Title = styled.h1`
   font-size: 3.5em;
   margin-bottom: 60px;
   color: white;
+  text-align: center;
 `;
 
 const Brand = styled.span`
-  color: ${colors.figmentYellow};
+  color: ${colors.bnbYellow};
   font-size: 0.6em;
 
   a {
-    color: ${colors.figmentYellow};
+    color: ${colors.bnbYellow};
     &:hover {
       text-decoration: underline;
     }
@@ -166,7 +136,7 @@ const SectionTitle = styled.div`
   margin-bottom: 20px;
   color: white;
   font-weight: 500;
-  color: ${colors.figmentYellow};
+  color: ${colors.bnbYellow};
   border-bottom: solid 1px rgb(255 242 155 / 35%);
 `;
 
@@ -193,8 +163,8 @@ const ProtocolBox = styled.div<{
     `
 		&:hover {
 			border: none;
-			color: ${secondary_color};
-			background: ${primary_color};
+			color: ${primary_color};
+			background: ${secondary_color};
 			cursor: pointer;
 		}
 	`}
@@ -215,7 +185,7 @@ const ComingSoon = styled(Row)`
   top: -12px;
   right: -12px;
   text-align: center;
-  background: ${colors.figmentYellow};
+  background: ${colors.bnbYellow};
   border-radius: 50%;
   font-size: 0.8em;
   color: #555;
